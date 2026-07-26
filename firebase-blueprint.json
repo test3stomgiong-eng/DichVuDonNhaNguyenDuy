@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "leads": {
+      "title": "Leads",
+      "description": "Customer lead bookings and registrations",
+      "type": "object",
+      "properties": {
+        "fullName": { "type": "string" },
+        "phone": { "type": "string" },
+        "address": { "type": "string" },
+        "serviceType": { "type": "string" },
+        "preferredDate": { "type": "string" },
+        "preferredTime": { "type": "string" },
+        "estimatedPrice": { "type": "number" },
+        "status": { "type": "string" },
+        "note": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["fullName", "phone", "serviceType", "status"]
+    },
+    "company_config": {
+      "title": "Company Config",
+      "description": "Website settings and hotline config",
+      "type": "object",
+      "properties": {
+        "companyName": { "type": "string" },
+        "slogan": { "type": "string" },
+        "hotline": { "type": "string" },
+        "zaloUrl": { "type": "string" },
+        "facebookUrl": { "type": "string" },
+        "address": { "type": "string" },
+        "workingHours": { "type": "string" },
+        "email": { "type": "string" }
+      },
+      "required": ["companyName", "hotline"]
+    },
+    "services": {
+      "title": "Services",
+      "description": "Services offered by company",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "shortDesc": { "type": "string" },
+        "fullDesc": { "type": "string" },
+        "startingPrice": { "type": "string" },
+        "unit": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "popular": { "type": "boolean" }
+      },
+      "required": ["title", "startingPrice"]
+    }
+  }
+}

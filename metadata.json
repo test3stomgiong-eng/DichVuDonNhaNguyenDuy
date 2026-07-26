@@ -1,0 +1,6 @@
+{
+  "name": "Dịch vụ Dọn nhà Nguyễn Duy",
+  "description": "Landing page giới thiệu dịch vụ dọn nhà, vệ sinh công nghiệp Nguyễn Duy chuyên nghiệp, chuẩn SEO và tối ưu chuyển đổi quảng cáo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
